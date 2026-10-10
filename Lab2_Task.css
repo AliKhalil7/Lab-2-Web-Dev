@@ -1,6 +1,6 @@
 
 .body{
-    background-color: aliceblue;
+    background-color: white;
     margin: 0 ;
     font-family: Arial, sans-serif;
 }
@@ -15,21 +15,21 @@ padding: 20px;
 .seconddiv{
 color:black;
 text-align: center; 
-padding: 40px;
+padding: 80px;
 }
 
 .thirddiv{
 color:black;
 text-align: center;
-padding: 40px;
+padding: 60px;
 }
 .fourthdiv{
     color:black;
     text-align: center;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
 
-    gap:0px;     
+    gap:20px;     
     
 }
 .projects {
@@ -37,4 +37,38 @@ padding: 40px;
     padding: 15px;
     border-radius: 8px;      /* rounded corners */
     box-shadow: 0 2px 5px rgba(0,0,0,1);   /* horizontal offset, vertical offset, blur, color */
+}
+
+.inputspace{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+}
+.inputbox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sendbutton{
+    background-color: black;
+    color: white;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border :0 ;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+
 }
