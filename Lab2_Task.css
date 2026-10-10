@@ -1,0 +1,40 @@
+
+.body{
+    background-color: aliceblue;
+    margin: 0 ;
+    font-family: Arial, sans-serif;
+}
+
+.firstdiv{
+background-color:black ;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+.seconddiv{
+color:black;
+text-align: center; 
+padding: 40px;
+}
+
+.thirddiv{
+color:black;
+text-align: center;
+padding: 40px;
+}
+.fourthdiv{
+    color:black;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+
+    gap:0px;     
+    
+}
+.projects {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;      /* rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,1);   /* horizontal offset, vertical offset, blur, color */
+}
